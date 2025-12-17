@@ -47,4 +47,44 @@
 *   **空白鍵**：開啟無敵盾牌 (需先購買道具)
 
 ---
+
+## 🚀 部署到 GitHub Pages
+
+### 方法一：自动部署（推荐）
+1. 将代码推送到 GitHub
+2. 到仓库的 Settings > Pages
+3. Source 选择 "GitHub Actions"
+4. 每次推送到 main 分支时会自动部署
+
+### 方法二：手动部署
+```bash
+# 安装依赖
+npm install
+
+# 构建并部署
+npm run deploy
+```
+
+### 线上游戏地址
+🎮 [https://llaurraa.github.io/group8/](https://llaurraa.github.io/group8/)
+
+---
+
+## 🛠️ 本地开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览生产版本
+npm run preview
+```
+
+---
 *Built with React Three Fiber & Web Audio API*
